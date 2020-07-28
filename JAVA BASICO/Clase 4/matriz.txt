@@ -1,0 +1,47 @@
+package practicamatriz;
+
+import java.util.Scanner;
+
+
+public class PracticaMatriz {
+
+    
+    public static void main(String[] args) {
+        float miMatriz[][]=new float[3][4];
+        float sumandoFila[]=new float[3];
+        float promedio[]=new float[3];
+        //float promedio;
+        /*int x;
+        int y;
+        int z;*/
+        
+       Scanner entrada=new Scanner(System.in);
+       for (int i=0;i<miMatriz.length;i++){
+           for(int j=0;j<miMatriz[i].length;j++){
+               System.out.print("Ingrese un elemento para celda [ " +i+","+j+"]: ");
+               miMatriz[i][j]=entrada.nextInt();
+               sumandoFila[i]=sumandoFila[i]+miMatriz[i][j];
+               promedio[i]=sumandoFila[i]/(j+1);
+           }
+           
+       }
+       for(int i=0; i<miMatriz.length;i++){
+           for(int j=0;j<miMatriz[i].length;j++){
+               
+               System.out.print(String.format(" %.2f ",miMatriz[i][j]));  
+               
+               
+           }
+           System.out.print(String.format(" Resultado al sumar elementos de esta fila: %.2f ",sumandoFila[i])); 
+           System.out.print(String.format(" El promedio de esta suma es: %.2f ",promedio[i])); 
+           System.out.println();
+       }
+              /* x=miMatriz[0][0]+miMatriz[0][1]+miMatriz[0][2]+miMatriz[0][3];
+               y=miMatriz[1][0]+miMatriz[1][1]+miMatriz[1][2]+miMatriz[1][3];
+               z=miMatriz[1][0]+miMatriz[1][1]+miMatriz[1][2]+miMatriz[1][3];
+               System.out.println("Los resultados de cada suma y promedios por cada sila son los siquientes: \n"
+              +" fila 1: " +x+" promedio fila 1: "+x/4+"\n fila 2: "+y+" promedio fila 2: "+y/4+
+                      "\n fila 3: "+z+" promedio fila 3: "+z/4);*/
+    }
+    
+}

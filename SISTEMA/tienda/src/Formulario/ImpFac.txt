@@ -1,0 +1,43 @@
+
+              FACTURA DE VENTA
+
+
+              TIENDA M&F
+                                     RUC 100464
+         DE: FUENTES FLORES
+
+                                     FACTURA DE
+        P.J. Miramar E-13 Parte Ba
+
+                                       Nº 0000000
+              ILO - MOQU
+
+
+        Señor(a): xdfdfdfeee       Cod. Cliente:
+
+        RUC: eeeeeee               DNI: eeeeeeee
+
+        Direccion:                 Fecha de Emis
+
+      COD. P DESCRIPCION  PRECIO UNICANTI   TOTAL
+      null  null          null      null  null
+                                          Subtotal:
+                                          IGV: 14114
+                                          Total a Pa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
